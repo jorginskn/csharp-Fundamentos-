@@ -2,5 +2,6 @@
 
 Pessoa p1 = new Pessoa();
 p1.nome = "Jorge";
+p1.sobrenome = "Martins Ferraz";
 p1.idade = 23;
 p1.apresentar();

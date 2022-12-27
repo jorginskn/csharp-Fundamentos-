@@ -8,33 +8,46 @@ namespace ExemplosExplorando.Models
     public class Pessoa
     {
         private string _nome;
+        private int _idade;
+        private string _sobrenome;
+        private string _nomeCompleto;
         public string nome
         {
-            get
-            {
-                return _nome.ToUpper();
-            }
+            get => _nome;
+
             set
             {
                 if (value == "")
                 {
-                    throw new ArgumentException("O nome não pode ser vazio");
+                    throw new ArgumentException("O nome não pode ser vazio!");
                 }
                 _nome = value;
             }
         }
-        private int _idade;
+
+        public string sobrenome
+        {
+            get => _sobrenome;
+            set
+            {
+
+                if (value == "")
+                {
+                    throw new ArgumentException("O sobrenome não pode ser vazio!");
+                }
+                _sobrenome = value;
+            }
+        }
+        public string nomeCompleto => $"{nome} {sobrenome}".ToUpper();
         public int idade
         {
-            get
-            {
-                return _idade;
-            }
+            get => _idade;
+
             set
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException("Idade invalida!");
+                    throw new ArgumentException("Idade invalida! Sua idade não pode ser menor ou igual a 0!");
                 }
                 _idade = value;
             }
@@ -42,7 +55,8 @@ namespace ExemplosExplorando.Models
 
         public void apresentar()
         {
-            Console.WriteLine($"Nome:  {nome}, Idade : {idade}");
+            Console.WriteLine($"Nome:  {nomeCompleto}, Idade : {idade}");
         }
     }
+
 }
