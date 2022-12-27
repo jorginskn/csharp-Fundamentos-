@@ -7,8 +7,38 @@ namespace ExemplosExplorando.Models
 {
     public class Pessoa
     {
-        public string nome { get; set; }
-        public int idade { get; set; }
+        private string _nome;
+        public string nome
+        {
+            get
+            {
+                return _nome.ToUpper();
+            }
+            set
+            {
+                if (value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio");
+                }
+                _nome = value;
+            }
+        }
+        private int _idade;
+        public int idade
+        {
+            get
+            {
+                return _idade;
+            }
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Idade invalida!");
+                }
+                _idade = value;
+            }
+        }
 
         public void apresentar()
         {
