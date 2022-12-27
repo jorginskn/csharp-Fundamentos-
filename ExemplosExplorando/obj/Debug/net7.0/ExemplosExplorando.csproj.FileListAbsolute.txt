@@ -1,0 +1,15 @@
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\bin\Debug\net7.0\ExemplosExplorando.exe
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\bin\Debug\net7.0\ExemplosExplorando.deps.json
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\bin\Debug\net7.0\ExemplosExplorando.runtimeconfig.json
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\bin\Debug\net7.0\ExemplosExplorando.dll
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\bin\Debug\net7.0\ExemplosExplorando.pdb
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.csproj.AssemblyReference.cache
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.AssemblyInfoInputs.cache
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.AssemblyInfo.cs
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.dll
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\refint\ExemplosExplorando.dll
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.pdb
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ExemplosExplorando.genruntimeconfig.cache
+C:\Users\Jorge\Documents\Projeto\backend\c# fundamentos\ExemplosExplorando\obj\Debug\net7.0\ref\ExemplosExplorando.dll
